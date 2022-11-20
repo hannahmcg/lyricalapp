@@ -1,0 +1,111 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #1d1d20;
+    color: #ffffffde;
+    /* display: grid; */
+    /* place-content: center; */
+    overflow: hidden;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    color: #e2e2e2;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 20px;
+    font-family: "Inter", serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+  form {
+    margin-left: 32%;
+    display: block;
+    inline-size: 300px;
+    justify-content: center;
+    margin-top: 120px;
+  }
+
+  .textarea {
+    display: block;
+    width: 150%;
+    height: 1000%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #4a90e2;
+    border-radius: 4px;
+    background-color: #181d22;
+    box-shadow: 2px, 2px 2px rgb(122, 131, 199);
+    font-size: 14px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #e2e2e2;
+    resize: none;
+  }
+
+  .input {
+    display: block;
+    height: 200px;
+    width: 350px;
+    font-size: .8em;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #ffffffde;
+    border: 2px solid #4a90e2;
+    margin-right: 10px;
+    padding: 0 10px;
+  }
+
+  .input:focus {
+    outline: none;
+    color: rgb(205, 255, 240);
+  }
+
+  .btn {
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    border: none;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 0 20px;
+    background-color: transparent;
+    color: #ffffffde;
+    border: 2px solid #1d4371;
+    cursor: pointer;
+  }
+
+  .btn:focus{
+    transform: scale(.92);
+    background-color:rgb(48, 58, 133);
+    color:rgb(205, 255, 240);
+  }
+
+  .btn:active{
+    background-color:none;
+    color:rgb(205, 255, 240);
+  }
+
+  .data {
+    text-align: center;
+  }
+
+  .data > p {
+    font-size: 1.5rem;
+    color: #848484;
+  }
+
+  .data > p > span {
+    text-transform: capitalize;
+    color: #4a90e2;
+  }
